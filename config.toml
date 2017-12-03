@@ -1,0 +1,48 @@
+baseURL = "http://parsecsreach.com"
+languageCode = "en-us"
+title = "Parsecs Reach"
+theme = "casper"
+paginate = 5
+Copyright = "All rights reserved - 2017"
+#canonifyurls = true
+
+[params]
+  description = "Personal Blog"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = "img/moon.jpg"
+  author = "Wil Selwood"
+  authorlocation = "Oxfordshire, UK"
+  authorwebsite = "http://parsecsreach.com"
+  authorbio= "Software Engineer - Sort of full stack but not the normal stack"
+  authoravatar="img/profilePic.jpg"
+  logo = ""
+  #googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  # RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "wselwood"
+  twitterName = "wilselwood"
+  # facebookName = ""
+  # codepenName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = true
+  
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
+
+  [params.social]
+    twitter = "wilselwood"
+
+[[menu.main]]
+  name = "Home"
+  weight = -100
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about"
