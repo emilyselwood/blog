@@ -7,8 +7,8 @@ Copyright = "All rights reserved - 2017"
 #canonifyurls = true
 
 [params]
-  description = "Personal Blog"
-  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  description = "Wil's personal blog"
+  metadescription = "Wil's Personal blog"
   cover = "img/moon.jpg"
   author = "Wil Selwood"
   authorlocation = "Oxfordshire, UK"
@@ -16,7 +16,7 @@ Copyright = "All rights reserved - 2017"
   authorbio= "Software Engineer - Sort of full stack but not the normal stack"
   authoravatar="img/profilePic.jpg"
   logo = ""
-  #googleAnalyticsUserID = "UA-79101-12"
+  googleAnalyticsUserID = "UA-89365253-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   # RSSLink = "http://feeds.feedburner.com/..."
   githubName = "wselwood"
@@ -25,7 +25,7 @@ Copyright = "All rights reserved - 2017"
   # codepenName = ""
   # linkedinName = ""
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = true
+  hideHUGOSupport = false
   
   # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
   # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles

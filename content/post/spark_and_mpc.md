@@ -1,13 +1,12 @@
 ---
-title: "Spark and the Minor Planets Center data"
+title: "Spark and the Minor Planet Center data"
 date: 2017-12-02T08:55:24Z
 draft: false
 slug: "spark_and_mpc"
-tags: ["spark", "minor planets center", "asteroids"]
+tags: ["spark", "minor planet center", "asteroids"]
 image: "img/fire.jpg"
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
-authoravatar: "img/profilePic.jpg"
 ---
 # Introduction
 
@@ -17,9 +16,9 @@ A few weeks ago I saw comments between [@Sondy](https://twitter.com/sondy) and [
 
 [Spark](https://spark.apache.org/) is an in-memory distributed processing framework. It is one of the largest open source data processing frameworks. There is a core section and several modules built on top. For this we will be using Spark SQL.
 
-## What is the Minor Planets Center?
+## What is the Minor Planet Center?
 
-The [minor planets center](http://www.minorplanetcenter.net/iau/mpc.html) is an organization that keeps track of observations of asteroids. They keep a list of all the known asteroids and all the observations people around the world have made. They publish this data in a range of formats from a fixed width text file to json. Their documentation has improved a lot in the last couple of years.
+The [minor planet center](http://www.minorplanetcenter.net/iau/mpc.html) is an organization that keeps track of observations of asteroids. They keep a list of all the known asteroids and all the observations people around the world have made. They publish this data in a range of formats from a fixed width text file to json. Their documentation has improved a lot in the last couple of years.
 
 ## What data are we looking at?
 
@@ -33,7 +32,7 @@ I am going to assume you have a local java installation and an IDE you are comfo
 
 # Setup
 
-First we need to go and get the data files. These are reasonably big. On the minor planets center [data page](http://www.minorplanetcenter.net/data) there is a link to the `mpcorb_extended.json.gz` file. Download this. This might take a while. So feel free to get started with the next bit.
+First we need to go and get the data files. These are reasonably big. On the minor planet center [data page](http://www.minorplanetcenter.net/data) there is a link to the `mpcorb_extended.json.gz` file. Download this. This might take a while. So feel free to get started with the next bit.
 
 I use [intelliJ](https://www.jetbrains.com/idea/). So create a new [gradle](https://gradle.org/) project. There is no particular reason I chose Gradle over SBT or maven only I have more experience with it. The basics of the project setup are easy enough. First add a few bits to mark the project as a scala project and create variables for versions of things. This will save repeating your self if you need to change them in the future. The versions I used were simply the latest version of spark and its matching scala version when I did this. Open up the build.gradle file.
 

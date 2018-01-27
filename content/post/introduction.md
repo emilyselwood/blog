@@ -7,7 +7,6 @@ tags: ["introduction"]
 image: "img/phesent.jpg"
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
-authoravatar: "img/profilePic.jpg"
 ---
 
 # Hello World
