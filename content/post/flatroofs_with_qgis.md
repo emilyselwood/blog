@@ -121,6 +121,10 @@ Select somewhere on the map that is background and not another feature. A box sh
 
 In the tool bars at the top there should be a delete button. It looks like a dustbin. When you click it the background of your area should go white again. Now you just need to save your changes and disable editing. To save the changes to a layer, right click on it and select the `Save changes` option. Then `Toggle Editing` again to make sure you don't do any thing you don't mean to.
 
+You should end up with something that looks a bit like this:
+
+![final result](/img/flatroofs/Screenshot_final_result.png)
+
 # Conclusion
 
 This turned into a much longer post than I planned however it covers a lot of useful things with the QGIS tools. We learnt to use the Raster Calculator, re-project an image, merge images, sieve an image, and use some of the DEM tools. Finally we also converted an image into polygons.
