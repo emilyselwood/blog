@@ -3,14 +3,14 @@ languageCode = "en-us"
 title = "Parsecs Reach"
 theme = "casper"
 paginate = 5
-Copyright = "All rights reserved - 2017"
+Copyright = "All rights reserved - 2019"
 #canonifyurls = true
 
 [params]
-  description = "Wil's personal blog"
-  metadescription = "Wil's Personal blog"
+  description = "Emily's personal blog"
+  metadescription = "Emily's Personal blog"
   cover = "img/moon.jpg"
-  author = "Wil Selwood"
+  author = "Emily Selwood"
   authorlocation = "Oxfordshire, UK"
   authorwebsite = "http://parsecsreach.com"
   authorbio= "Software Engineer - Sort of full stack but not the normal stack"

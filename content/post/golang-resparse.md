@@ -11,7 +11,7 @@ share: true        # set false to share buttons
 
 A little while ago I found my self needing to be able to parse screen resolutions when generating some images in a golang program. I created a library to do this and had a bit of fun optimising it. The result is open source on [github](https://github.com/wselwood/resparse). It is a very simple library with a single function but I thought it might be interesting to walk you through the process.
 
-What we need to build is a function needs to take a string like "1080p", "800x600", or "4K" and return a width and height value. There should also be an error in the return type just in case we can't parse the string.
+What we need to build is a function that takes a string like "1080p", "800x600", or "4K" and returns a width and height value. There should also be an error in the return type just in case we can't parse the string.
 
 This is going to be a very basic walkthrough of what I did so if you know a bit of go you probably can skip this one. Or skip to the sections on benchmarking and optimization.
 
