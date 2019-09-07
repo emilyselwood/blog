@@ -1,7 +1,7 @@
 ---
 title: "Announcing a new me"
 date: 2019-09-07T17:00:00Z
-draft: true
+draft: false
 slug: "its_me"
 tags: ["personal"]
 image: "img/dem.png" 
