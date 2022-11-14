@@ -1,17 +1,18 @@
 ---
 title: "Introduction"
 date: 2017-12-02T08:01:19Z
+author: "Emily Selwood"
 draft: false
 slug: "introduction"
 tags: ["introduction"]
-image: "img/phesent.jpg"
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
+ShowPostNavLinks: true
 ---
 
 # Hello World
 
-I'm Wil Selwood. Every so often I get the urge to try and start a blog again. Here is iteration 235.
+I'm Emily Selwood. Every so often I get the urge to try and start a blog again. Here is iteration 235.
 
 ## What do I do?
 

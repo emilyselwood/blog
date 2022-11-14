@@ -1,12 +1,13 @@
 ---
 title: "Windows Subsystem for Linux Dot files"
 date: 2018-08-09T08:25:13+01:00
+author: "Emily Selwood"
 draft: false
 slug: "wsl_dot_files"
 tags: ["Windows Subsystem for Linux", "wsl", "dotfiles"]
-image: "img/mountains.jpg" 
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
+ShowPostNavLinks: true
 ---
 
 I've been using the Windows Subsystem for Linux (WSL) for a while at work. It's been something of a radical improvement over cygwin for most of my use cases. A couple of weeks ago my installation got borked by the work Antivirus (AV) system. So I've created an automated script to set up my environment just how I currently like it.

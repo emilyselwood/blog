@@ -1,12 +1,13 @@
 ---
 title: "Spark and the Minor Planet Center data part 2"
 date: 2017-12-03T15:39:22Z
+author: "Emily Selwood"
 draft: false
 slug: "spark_and_mpc_part_2"
 tags: ["spark", "minor planet center", "asteroids"]
-image: "img/fire2.jpg"
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
+ShowPostNavLinks: true
 ---
 
 In the [last post](/post/spark_and_mpc) we read the minor planet center orbit file. This was a JSON text file. This time we are going to look at a bit more complex file to process. If you haven't read the first post in this series I recommend starting there before reading this.

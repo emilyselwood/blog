@@ -1,12 +1,13 @@
 ---
 title: "Finding flatroofs with QGIS"
 date: 2018-01-26T21:58:30Z
+author: "Emily Selwood"
 draft: false
 slug: "Flatroofs_with_qgis"
 tags: ["qgis", "raster", "geography"]
-image: "img/dem.png" 
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
+ShowPostNavLinks: true
 ---
 
 A little while ago I attended the Climathon kic event/hackathon in Bristol at my old university. The event was to come up with solutions that could help with pollution in the city. There were not a lot of people who turned up so we formed a single team. The idea we came up with was to create an incentive for people with flat roofs to put plants on them. This meant we needed to be able to find flat roofs in the city. There were suggestions that we could do this with machine learning and looking at satellite images, but I thought we could do this with the Free LIDAR data provided by the environment agency and a few steps of processing.

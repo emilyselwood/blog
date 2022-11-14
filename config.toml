@@ -1,26 +1,36 @@
-baseURL = "http://parsecsreach.com"
+baseURL = "https://parsecsreach.org"
 languageCode = "en-us"
 title = "Parsecs Reach"
-theme = "casper"
-paginate = 5
-Copyright = "All rights reserved - 2019"
+theme = "hugo-PaperMod"
+paginate = 10
+Copyright = "All rights reserved - 2022"
+Author = "Emily Selwood"
 #canonifyurls = true
 
 [params]
+  [cover]
+    hidden = true
+    hiddenInSingle = true
+    image = "img/moon.jpg"
+  env = "production"
   description = "Emily's personal blog"
   metadescription = "Emily's Personal blog"
   cover = "img/moon.jpg"
   author = "Emily Selwood"
   authorlocation = "Oxfordshire, UK"
-  authorwebsite = "http://parsecsreach.com"
+  authorwebsite = "https://parsecsreach.org"
   authorbio= "Software Engineer - Sort of full stack but not the normal stack"
   authoravatar="img/profilePic.jpg"
+  PostNavLinks = true
+  ShowShareButtons=true
   logo = ""
-  googleAnalyticsUserID = "UA-89365253-1"
+  googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   # RSSLink = "http://feeds.feedburner.com/..."
-  githubName = "wselwood"
-  twitterName = "wilselwood"
+  githubName = "emilyselwood"
+  twitterName = "emilywselwood"
+  mainSections="post"
+  
   # facebookName = ""
   # codepenName = ""
   # linkedinName = ""
@@ -31,9 +41,14 @@ Copyright = "All rights reserved - 2019"
   # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
   # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
   hjsStyle = "default"
+  
 
-  [params.social]
-    twitter = "wilselwood"
+
+[params.social]
+    twitter = "emilywselwood"
+
+[[main.params]]
+  ShowPostNavLinks=true
 
 [[menu.main]]
   name = "Home"
@@ -46,3 +61,22 @@ Copyright = "All rights reserved - 2019"
   weight = -110
   identifier = "about"
   url = "/about"
+
+[[menu.main]]
+  name = "GitHub"
+  weight = -120
+  identifier = "github"
+  url = "https://github.com/emilyselwood"
+
+[[menu.main]]
+  name = "@emily_s@tech.lgbt"
+  weight = -130
+  identifier = "mastodon"
+  url = "https://tech.lgbt/@emily_s"
+
+
+[[menu.main]]
+  name = "Orb Viewer"
+  weight = -140
+  identifier = "orb viwer"
+  url = "https://parsecsreach.org/orbviewer"

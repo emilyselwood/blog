@@ -1,12 +1,13 @@
 ---
 title: "Announcing a new me"
 date: 2019-09-06T17:00:00Z
+author: "Emily Selwood"
 draft: false
 slug: "its_me"
 tags: ["personal"]
-image: "img/phesent.jpg"
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
+ShowPostNavLinks: true
 ---
 
 Hi. My name is Emily. No I've not taken over this blog for the day. I'm still the same author but a while ago I came to realize I'm a woman so my old name didn't fit any more.

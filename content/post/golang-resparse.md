@@ -1,12 +1,13 @@
 ---
 title: "Golang Resparse"
 date: 2018-12-08T13:28:33Z
+author: "Emily Selwood"
 draft: false
 slug: "golangresparse"
 tags: ["go", "golang", "resparse"]
-image: "img/apollo10.jpg" 
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
+ShowPostNavLinks: true
 ---
 
 A little while ago I found my self needing to be able to parse screen resolutions when generating some images in a golang program. I created a library to do this and had a bit of fun optimising it. The result is open source on [github](https://github.com/wselwood/resparse). It is a very simple library with a single function but I thought it might be interesting to walk you through the process.

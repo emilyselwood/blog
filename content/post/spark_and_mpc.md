@@ -1,12 +1,13 @@
 ---
 title: "Spark and the Minor Planet Center data"
 date: 2017-12-02T08:55:24Z
+author: "Emily Selwood"
 draft: false
 slug: "spark_and_mpc"
 tags: ["spark", "minor planet center", "asteroids"]
-image: "img/fire.jpg"
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
+ShowPostNavLinks: true
 ---
 # Introduction
 

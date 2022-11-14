@@ -1,12 +1,13 @@
 ---
 title: "Spark and the Minor Planet Center data part 3"
 date: 2017-12-05T19:39:29Z
+author: "Emily Selwood"
 draft: false
 slug: "spark_and_mpc_part_3"
 tags: ["spark", "minor planet center", "asteroids"]
-image: "img/fire3.jpg" 
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
+ShowPostNavLinks: true
 ---
 
 In the [last post](/post/spark_and_mpc_part_2) we read the minor planet center observation file. This was a fixed width text file. We only pulled a couple of columns out of it, but we learnt to use User Defined Functions, groupBy and select. In the [first post](/post/spark_and_mpc) of this series we covered reading a json file which contained information about all the asteroids we know about.
