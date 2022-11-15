@@ -4,7 +4,7 @@ date: 2018-01-26T21:58:30Z
 author: "Emily Selwood"
 draft: false
 slug: "Flatroofs_with_qgis"
-tags: ["qgis", "raster", "geography"]
+tags: ["qgis", "raster", "geography", "geospatial"]
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
 ShowPostNavLinks: true
