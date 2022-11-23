@@ -4,7 +4,7 @@ date: 2022-11-22T06:45:00+00:00
 author: "Emily Selwood"
 draft: false
 slug: "cogs"
-tags: ["geospatial", "cogs"]
+tags: ["geospatial", "cogs", "file formats"]
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
 ShowPostNavLinks: true
