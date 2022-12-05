@@ -1,5 +1,5 @@
 ---
-title: "Explorers End."
+title: "Explorers End"
 date: 2022-12-04T12:17:00+01:00
 author: "Emily Selwood"
 draft: false
