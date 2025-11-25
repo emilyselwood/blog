@@ -39,7 +39,7 @@ def configC(configA, configB):
 
 Where it is able to work out that it needs the results of `configA` and `configB` to be able to call `configC` 
 
-There are a few of steps here: 
+There are a few steps here: 
 1) Load all the python files in a folder into the python environment
 1) Create a rust struct that python code can create for the config objects
 1) Find all the functions with the `@configure` decorator on them
