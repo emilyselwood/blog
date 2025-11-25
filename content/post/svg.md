@@ -4,15 +4,15 @@ date: 2022-11-23T06:45:00+00:00
 author: "Emily Selwood"
 draft: false
 slug: "svgs"
-tags: ["file formats"]
+tags: ["file formats", "svg"]
 comments: false     # set false to hide Disqus comments
 share: true        # set false to share buttons
 ShowPostNavLinks: true
 ---
 
-lets talk about SVGs as an image format. 
+lets talk about SVGs as an image format.
 
-You may have heard of them called a vector format. This means that instead of defining a grid of pixels and having about what colour every pixel is, it defines the features of the image. 
+You may have heard of them called a vector format. This means that instead of defining a grid of pixels and having about what colour every pixel is, it defines the features of the image.
 
 There is a red line from 12,45 to 26,78
 The text "hello" is in front ariel, 14pt and blue
@@ -39,4 +39,3 @@ Like HTML I'd argue that anything more complex than a simple image, you should n
 One thing to keep in mind when working with SVG images is eventually it will be pixels on a screen or on a page. When you get there you will need to define your Pixels per inch. There is no defined standard, Inkscape uses 96ppi by default. The Cricut used 72. This causes no end of headaches. You can use physical units inside an SVG if you want. You can also set the size of the image, e.g. to the size of an A4 page.
 
 While I said they will be pixels on a screen, the other really useful thing about SVGs is because they are made up of paths mostly they can be fed into things like laser cutters, plotters, and draw knife machines like the Cricut. The thing to watch out for though is the level of detail. You usually have a minimum feature size so you want to make sure your detail isn't below that.
-
