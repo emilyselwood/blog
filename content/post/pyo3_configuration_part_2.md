@@ -2,7 +2,7 @@
 title: "Using python to configure rust Part 2"
 date: 2025-11-26T18:02:00+00:00
 author: "Emily Selwood"
-draft: true
+draft: false
 slug: "pyo3_config_part_2"
 tags: ["rust", "python", "pyo3"]
 comments: false     # set false to hide Disqus comments
