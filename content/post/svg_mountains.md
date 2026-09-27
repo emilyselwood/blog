@@ -12,6 +12,8 @@ ShowPostNavLinks: true
 
 Recently I've been playing with drawing stuff in web pages. Little procedurally generated toys like [these brambles](https://parsecsreach.org/rewilding) or [these mountain ranges](https://parsecsreach.org/mountains) I thought I'd write up a little guide on what I do when I build these and how I think about the problems.
 
+![svg mountains](/img/svg_mountains/mountains_screenshot.png)
+
 ## Scaffolding
 
 To get started we need something to display stuff. Web browsers make this easy so lets make a web page with an [SVG](/post/svgs/) in it. Sure we could use python or [rust](/post/polygonical_and_esvg/) or almost anything to generate SVGs but for this I'm going to use javascript and html.
